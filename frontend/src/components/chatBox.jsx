@@ -9,8 +9,8 @@ import {
   InputAdornment,
   Tooltip
 } from "@mui/material";
-import { FaPaperPlane } from "react-icons/fa";
-import BlogPost from "./BlogPost";
+import SendIcon from '@mui/icons-material/Send';
+import BlogPost from "./blogPost";
 
 const ChatBox = ({ setHistory }) => {
   const [topic, setTopic] = useState("");
@@ -88,7 +88,7 @@ const ChatBox = ({ setHistory }) => {
                     disabled={isLoading || !topic.trim()}
                     sx={{ padding: 1, borderRadius: '50px' }}
                   >
-                    {isLoading ? <CircularProgress size={24} color="inherit" /> : <FaPaperPlane />}
+                    {isLoading ? <CircularProgress size={24} color="inherit" /> : <SendIcon />}
                   </Button>
                 </Tooltip>
               </InputAdornment>

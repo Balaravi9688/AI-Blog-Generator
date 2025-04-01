@@ -14,7 +14,7 @@ import {
   Tooltip
 } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
-import ChatBox from "./components/ChatBox";
+import ChatBox from "./components/chatBox";
 import HistoryDialog from "./components/historyDialog";
 
 function App() {
