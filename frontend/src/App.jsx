@@ -95,12 +95,13 @@ function App() {
           ) : (
             filteredHistory?.map((item, index) => (
               <ListItem
-                button
+                component={'button'}
                 key={index}
                 onClick={() => handleHistoryItemClick(index)}
                 selected={selectedItem === index}
                 sx={{
                   backgroundColor: selectedItem === index ? "#d3d3d3" : "transparent",
+                  border : 'none',
                   "&:hover": {
                     backgroundColor: "#e0e0e0",
                   },
