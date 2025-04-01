@@ -6,12 +6,12 @@ git clone https://github.com/Balaravi9688/AI-Blog-Generator.git
 
 2. Setup Frontend
 
-cd frontend
-npm install --legacy-peer-deps
-npm run dev
+* cd frontend
+* npm install --legacy-peer-deps
+* npm run dev
 
 3. Setup Backend
 
-cd backend
-npm install
-npm start
+* cd backend
+* npm install
+* npm start
