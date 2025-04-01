@@ -33,7 +33,7 @@ const ChatBox = ({ setHistory }) => {
 
       setHistory((prev) => [...prev, { topic: topic, data: response.data }]);
 
-      console.log("API Response Data:", response.data);
+      // console.log("API Response Data:", response.data);
     } catch (error) {
       console.error("Error generating blog:", error);
       setError("Failed to generate blog post. Please try again.");
